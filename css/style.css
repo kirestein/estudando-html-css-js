@@ -1,0 +1,61 @@
+body,body * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conteudo {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+ol,ul {
+    padding: 0 0 1.25rem;
+}
+
+header, footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #10ca9c;
+    color: #ffffff;
+}
+
+header {
+    height: 30vh;
+}
+
+h1, h2, h3 {
+    margin: 2rem 0;
+}
+
+h1 {
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.4em;
+    text-indent: 1rem;
+}
+
+p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 3px;
+}
+
+header p {
+    text-align: center;
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+}
+
+header img {
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
+}
