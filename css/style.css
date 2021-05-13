@@ -35,6 +35,10 @@ body,body * {
     width: 100%;
 }
 
+.cantoRedondo {
+    border-radius: 2rem;
+}
+
 ol,ul {
     padding: 0 0 1.25rem;
 }
