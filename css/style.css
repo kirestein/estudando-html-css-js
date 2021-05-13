@@ -26,12 +26,26 @@ ol,ul {
 header, footer {
     width: 100%;
     height: 15vh;
-    background: linear-gradient(#10ca9c, #7af5d6) ;
-    color: #ffffff;
+    color: #fffefe;
 }
 
 header {
     height: 30vh;
+    background: linear-gradient(#0ea882, #5cf3cd);
+}
+
+footer {
+    margin: 1rem 0 0 0;
+    background: linear-gradient(#d7fcf2, #0ea882) ;
+}
+
+
+footer p {
+    padding: 2rem 0 0 2rem;
+}
+
+body {
+    background: linear-gradient(#d7fcf2, #fffefe, #d7fcf2);
 }
 
 h1, h2, h3 {
@@ -68,11 +82,21 @@ header p {
 header img {
     width: 20vw;
     display: block;
-    margin: 0 auto;
+    margin: 2rem auto;
+}
+
+header a {
+    position: absolute;
+    display: flex;
+    color: #fffefe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 2rem 0 0 2rem;
 }
 
 nav {
-    background: linear-gradient(#7af5d6, #ffffff) ;
+    background: linear-gradient(#5cf3cd, #d7fcf2) ;
     text-align: center;
 }
 
@@ -86,7 +110,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #f75e5e;
+    color: #e63c3c;
     text-decoration: none;
     transition: 1s all;
 }
