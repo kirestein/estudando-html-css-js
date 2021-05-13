@@ -44,6 +44,8 @@ body,body * {
     width: 88vw;
     height: 100vh;
     position: relative;
+    background-image: url(../imagens/forest-bg.jpg);
+    background-size: 100% 100%;
 }
 
 .png img {
@@ -61,7 +63,7 @@ body,body * {
 .png img:nth-of-type(2) {
     width: 15%;
     bottom: 5vh;
-    right: 25%;
+    right: 30%;
     z-index: 1;
 }
 
