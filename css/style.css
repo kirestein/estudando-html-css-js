@@ -39,6 +39,14 @@ body,body * {
     border-radius: 2rem;
 }
 
+.png {
+    border: 1px solid #000;
+}
+
+.png img {
+    width: 40%;
+}
+
 ol,ul {
     padding: 0 0 1.25rem;
 }
