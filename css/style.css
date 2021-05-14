@@ -39,6 +39,10 @@ body,body * {
     border-radius: 2rem;
 }
 
+.circulo {
+    border-radius: 50%;
+}
+
 .png {
     border: 1px solid #000;
     width: 88vw;
