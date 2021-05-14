@@ -97,6 +97,7 @@ body,body * {
     position:absolute;
     bottom:0;
     animation:anima01 linear 6s forwards;
+    animation-delay: 1s;
 }
 
 ol,ul {
