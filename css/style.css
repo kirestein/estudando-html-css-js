@@ -167,7 +167,7 @@ body,body * {
     left: 34%;
     z-index: 2;
     opacity: 0;
-    animation: anima04 2s linear infinite forwards;
+    animation: anima04 2s linear infinite;
     animation-delay: 5s;
 }
 
