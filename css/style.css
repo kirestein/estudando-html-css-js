@@ -179,6 +179,23 @@ ul.musica li:nth-child(even) {
     font-weight: bold;
 }
 
+li#teclado {
+    border: 1px solid #000;
+    list-style: none;
+    width: 6rem;
+    margin: 0.25rem;
+    background-color: #fff;
+    transition: all 0.6s;
+}
+li#teclado a{
+    text-decoration: none;
+}
+
+li#teclado:hover {
+    border: 1px solid #e63c3c;
+    background-color: #d7fcf2;
+}
+
 ol,ul {
     padding: 0 0 1.25rem;
 }
