@@ -196,6 +196,27 @@ li#teclado:hover {
     background-color: #d7fcf2;
 }
 
+table {
+    border: 1px solid #000;
+    width: 40%;
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #999;
+    text-align: center;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+table th {
+    border-bottom:4px solid #000;
+}
+
+table tr:nth-of-type(2) {
+    padding: 1rem;
+}
+
 ol,ul {
     padding: 0 0 1.25rem;
 }
