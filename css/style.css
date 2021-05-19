@@ -244,11 +244,27 @@ table tr td:nth-of-type(2){
 
 .ex02 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
 }
 
 .clear {
     clear: left;
+}
+
+.ex03 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ex03 div { 
+    background-color: #fff;
+}
+
+.bg-verde {
+    background-color: lightgreen;
 }
 
 ol,ul {
