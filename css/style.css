@@ -228,6 +228,20 @@ table tr td:nth-of-type(2){
     color: green;
 }
 
+.ex01 img {
+    float: left;
+    box-shadow: 10px 10px 10px #000;
+    margin:0 4rem 4rem 0;
+}
+
+.ex01 p {
+    padding: 10% 0 0 0;
+}
+
+.clear {
+    clear: left;
+}
+
 ol,ul {
     padding: 0 0 1.25rem;
 }
