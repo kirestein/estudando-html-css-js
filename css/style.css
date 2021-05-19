@@ -238,6 +238,15 @@ table tr td:nth-of-type(2){
     padding: 10% 0 0 0;
 }
 
+.a2 {
+    padding: 2rem 0 0 0;
+}
+
+.ex02 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .clear {
     clear: left;
 }
