@@ -29,7 +29,7 @@ window.onload=function(){
 
     console.log("A variável total é do tipo " + total);
 
-
+    
     //VARIÁVEIS - DIV C2 /////////////////////
     var p2,n1,n2,div2,operacao,resultado;
     p2=document.querySelector("div.c2 p");
@@ -38,17 +38,25 @@ window.onload=function(){
     n2=12;
     p2.innerHTML="Event Click";
     div2.innerHTML="<span> n1 ("+ n1 + ") + n2 (" + n2 + ")= " + (n1+n2) + "</span>";
-    operacao="somar";
-
-    switch (operacao) {
+    operacao="multiplicar";
+    
+    function calculadora (op) {
+    switch (op) {
         case "somar" :
             resultado=n1+n2;
             break;
         case "dividir" :
             resultado=n1/n2;
-        
+        case "subtrair" :
+            resultado=n1-n2;
+        case "multiplicar" :
+            resultado=n1*n2;
             break;
     }
-
-    console.log(resultado)
+    console.log(resultado);
+}
+    calculadora(operacao);
+    document.querySelector("#btn1").onClick=function() {
+        calculadora(operacao);
+    }
 };
