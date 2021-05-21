@@ -47,16 +47,27 @@ window.onload=function(){
             break;
         case "dividir" :
             resultado=n1/n2;
+            break
         case "subtrair" :
             resultado=n1-n2;
+            break
         case "multiplicar" :
             resultado=n1*n2;
             break;
     }
     console.log(resultado);
 }
-    calculadora(operacao);
-    document.querySelector("#btn1").onClick=function() {
-        calculadora(operacao);
+    // calculadora(operacao);
+    document.querySelector("#btn1").onclick=function() {
+        calculadora("somar");
+    }
+    document.querySelector("#btn2").onclick=function() {
+        calculadora("subtrair");
+    }
+    document.querySelector("#btn3").onclick=function() {
+        calculadora("multiplicar");
+    }
+    document.querySelector("#btn4").onclick=function() {
+        calculadora("dividir");
     }
 };
