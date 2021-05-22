@@ -333,6 +333,17 @@ div.c1 p,div.c2 p{
     margin-bottom:15px;
 }
 
+#resultado {
+    padding: 1rem 0 0 0;
+}
+
+.c2 #resultado::first-letter {
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: auto;
+}
+
 button {
     padding: 1rem;
     font-size: 1.25rem;

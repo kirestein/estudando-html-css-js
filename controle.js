@@ -40,13 +40,13 @@ window.onload=function(){
     div2.innerHTML="<span> n1 ("+ n1 + ") + n2 (" + n2 + ")= " + (n1+n2) + "</span>";
     operacao="multiplicar";
     
-    function calculadora (op) {
+    function calculadora (op, n1, n2) {
     switch (op) {
         case "somar" :
-            resultado=n1+n2;
+            resultado=parseInt(n1)+parseInt(n2);
             break;
         case "dividir" :
-            resultado=n1/n2;
+            resultado=(n1/n2).toFixed(2);
             break
         case "subtrair" :
             resultado=n1-n2;
@@ -56,18 +56,25 @@ window.onload=function(){
             break;
     }
     console.log(resultado);
+    document.querySelector("#resultado").textContent=resultado;
 }
-    // calculadora(operacao);
+    calculadora(operacao);
+
+    // click dos buttons
+    var campo1, campo2;
+    campo1=document.querySelector("input[name=n1]");
+    campo2=document.querySelector("input[name=n2]");
+
     document.querySelector("#btn1").onclick=function() {
-        calculadora("somar");
+        calculadora("somar",campo1.value,campo2.value);
     }
     document.querySelector("#btn2").onclick=function() {
-        calculadora("subtrair");
+        calculadora("subtrair",campo1.value,campo2.value);
     }
     document.querySelector("#btn3").onclick=function() {
-        calculadora("multiplicar");
+        calculadora("multiplicar",campo1.value,campo2.value);
     }
     document.querySelector("#btn4").onclick=function() {
-        calculadora("dividir");
+        calculadora("dividir",campo1.value,campo2.value);
     }
 };
